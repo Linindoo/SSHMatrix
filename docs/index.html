@@ -9,10 +9,18 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
+<nav>
+  <a href="#/">EN</a>
+  <a href="#/zh-cn/">简体中文</a>
+</nav>
 <div data-app id="main">Please wait...</div>
   <script>
     window.$docsify = {
       el: '#main',
+      loadSidebar: true,
+      auto2top: true,
+      autoHeader: true,
+      coverpage: true
     }
   </script>
   <!-- Docsify v4 -->
