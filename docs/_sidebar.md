@@ -4,3 +4,4 @@
 * [Shell](shell.md)
 * [Sftp](sftp.md)
 * [Tunnel](tunnel.md)
+* [Changelog](changelog.md)

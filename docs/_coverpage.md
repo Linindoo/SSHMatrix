@@ -1,7 +1,5 @@
 <!-- markdownlint-disable first-line-h1 -->
 
-![logo](_media/icon.svg)
-
 # SSHMatrix <small>2025.2.1</small>
 
 > A SSH client for IDEA developer
