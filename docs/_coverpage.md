@@ -4,9 +4,7 @@
 
 > A SSH client for IDEA developer
 
-- Running a command or opening a shell
-- Easy upload, download, and editing of files
-- Supports SSH tunneling
+:cake: `Shell` `/` :cherries: `SFTP` `/` :coffee: `SSH Tunnel`
 
 [Get Started](quickstart.md)
 [Marketplace](https://plugins.jetbrains.com/plugin/24625-sshmatrix)

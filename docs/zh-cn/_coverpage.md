@@ -5,9 +5,7 @@
 
 > 一个为IDEA开发者服务的ssh客户端工具
 
-- 命令行终端
-- 文件管理
-- 安全隧道
+:cake: `命令行终端` `/` :cherries: `文件管理` `/` :coffee: `安全隧道`
 
 [开始体验](zh-cn/quickstart.md)
 [插件市场](https://plugins.jetbrains.com/plugin/24625-sshmatrix)
