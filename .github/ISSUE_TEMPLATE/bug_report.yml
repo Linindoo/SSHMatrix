@@ -1,0 +1,63 @@
+name: "Bug Report"
+description: Report a bug to help improve the project.
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to report this bug!
+        
+        The more information you share, the faster we can identify and fix the bug.
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: Describe the issue you are facing.
+      placeholder: |
+        What is the issue with the current behavior?
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected Behavior
+      description: Describe what you expected to happen.
+      placeholder: |
+        What did you expect to happen instead?
+    validations:
+      required: false
+  - type: textarea
+    id: error
+    attributes:
+      label: Error Logs
+      description: Paste the error logs if any.
+    validations:
+      required: false
+  - type: textarea
+    id: ide-version
+    attributes:
+      label: IDE
+      description: Share the version of Jetbrains IDE .
+      placeholder: |
+        IntelliJ IDEA 2024.2.0.1 (Community Edition)
+    validations:
+      required: true
+  - type: textarea
+    id: plugin-version
+    attributes:
+      label: Version of Plugin
+      description: What's the version of SSHMatrix you use.
+      value: |
+        SSHMatrix/2025.2.1
+    validations:
+      required: true
+  - type: textarea
+    id: os
+    attributes:
+      label: OS
+      description: Share you os information.
+      value: |
+        win11
+    validations:
+      required: false
